@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Argentum Pet Shop</title>
-    <link rel="stylesheet" href="CCS/styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <header>
         <div class="top-navbar">
             <div class="logo">
-                <a href="#"><img src="logo.png" alt="Argentum Pet Shop"></a>
+                <a href="#"><img src="logo-pet-shop.png" alt="Argentum Pet Shop"></a> <!-- Logo del Pet Shop -->
             </div>
             <div class="search-bar">
                 <input type="text" placeholder="Buscar...">
@@ -36,5 +36,24 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Bienvenidos a Argentum Pet Shop</h1>
+                <p>¡Tu tienda de confianza para mascotas!</p> <!-- Slogan de referencia -->
+                <button onclick="window.location.href='#comprar'">Comprar</button> <!-- Call to action: Botón para comprar -->
+                <button onclick="window.location.href='#learn-more'">Learn More...</button> <!-- Call to action: Botón para leer más -->
+            </div>
+            <div class="hero-image">
+                <img src="carpeta/imagen.jpg" alt="Imagen de mascotas"> <!-- Imagen desde la carpeta -->
+            </div>
+        </section>
+        <section id="learn-more" class="about-us">
+            <h2>Sobre Nosotros</h2>
+            <p>
+                Argentum Pet Shop cuenta con más de 15 años en el mercado, ofreciendo un servicio personalizado y de calidad. Contamos conlas mejores marcas. Realizamos envíos a domicilio a Córdoba y al resto del país. 
+            </p>
+        </section>
+    </main>
 </body>
 </html>

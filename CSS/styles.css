@@ -1,3 +1,6 @@
+/* styles.css */
+
+/* Estilos generales */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -75,4 +78,68 @@ header {
 
 .bottom-navbar a:hover {
     background-color: #ddd;
+}
+
+/* Estilos adicionales */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.hero-text {
+    flex: 1 1 50%;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-text button {
+    background-color: #ff6b6b;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.hero-text button:hover {
+    background-color: #e55e5e;
+}
+
+.hero-image {
+    flex: 1 1 50%;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-us {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.about-us h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 1.2em;
 }
